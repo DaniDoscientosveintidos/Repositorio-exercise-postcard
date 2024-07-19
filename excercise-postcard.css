@@ -1,1 +1,63 @@
-
+body, html{
+        background-color: black;
+}
+/*div amarillo*/
+.card{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    background-color: white;
+}
+/*div1 encabezado*/
+.encabezado{
+    display: flex;
+}
+.encabezado img{
+    width: 60px;
+    height: 60px;
+    padding-top: 15px;
+}
+.encabezado h1{
+    margin: 10px;
+    width: 400px;
+    height: 20px;
+    font-family: cursive;
+}
+/*div2 contenidos*/
+.contenido{
+    display: flex;
+}
+.contenido-left{
+    padding-top: 20px;
+    padding:10px
+}
+.contenido p:first-child{
+    margin: top 0px;
+}
+p{
+    margin: 10px;
+    font-family: cursive;
+    font-size: 15px;
+}
+.contenido-rigth{
+    padding-top: 10px;
+}
+input{
+    padding-top: 8px;
+    border: none;
+    font-family: cursive;
+}
+/*div3 cierre*/
+.piedepagina{
+    text-align:center;
+}
+button{
+    font-family: cursive;
+    border-radius: 2px;
+    font-weight: bold;
+    background-color: darkgray;
+    color: black;
+}
+input{
+    border-bottom: 1px solid darkgrey;
+}
